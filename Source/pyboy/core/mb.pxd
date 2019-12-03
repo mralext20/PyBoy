@@ -20,9 +20,6 @@ cimport pyboy.window.base_window
 cdef unsigned short STAT, LY, LYC
 cdef short VBLANK, LCDC, TIMER, SERIAL, HIGHTOLOW
 
-cdef (int, int) _dummy_declaration
-cdef (int, int, int, int) _dummy_declaration2
-
 
 cdef class Motherboard:
     cdef pyboy.core.interaction.Interaction interaction

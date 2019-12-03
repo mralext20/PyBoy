@@ -10,8 +10,6 @@ from .base_window cimport BaseWindow
 from pyboy.core.lcd cimport LCD
 
 
-cdef (int, int) _dummy_declaration
-cdef (int, int, int, int) _dummy_declaration2
 
 cdef int ROWS, COLS
 

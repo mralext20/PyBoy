@@ -12,8 +12,6 @@ from pyboy.core.lcd cimport LCD
 from pyboy.window.base_window cimport BaseWindow
 
 
-cdef (int, int) _dummy
-cdef (int, int, int, int) _dummy2
 
 cdef int ROWS, COLS
 cdef dict KEY_DOWN, KEY_UP

@@ -10,7 +10,6 @@ cimport sdl2
 from pyboy.core.lcd cimport LCD
 from .window_sdl2 cimport SDLWindow
 
-cdef (int, int, int, int) _dummy_declaration2
 
 import cython
 cimport cython

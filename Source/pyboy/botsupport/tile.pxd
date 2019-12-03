@@ -10,9 +10,6 @@ cimport pyboy.window.base_window
 cimport pyboy.window.window_sdl2
 from pyboy.core.mb cimport Motherboard
 
-cdef (int, int) _dummy_declaration
-cdef (int, int, int, int) _dummy_declaration2
-
 cdef unsigned char _getcolorcode(unsigned char, unsigned char, unsigned char)
 
 cdef class Tile:
