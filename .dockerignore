@@ -1,0 +1,10 @@
+**/*
+!requirements.txt
+!pyboy/**/*
+!setup.py
+!tests/
+!examples/
+!README.md
+!README/**/*
+*.so
+*.c
